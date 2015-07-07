@@ -63,9 +63,12 @@ set ignorecase
 " 关闭兼容模式
 set nocompatible
 
+<<<<<<< HEAD
 " 自己加的
 set backspace=indent,eol,start
 
+=======
+>>>>>>> 03df61bd9c89ab24223a9e19054d895d44cba6a3
 " vim 自身命令行模式智能补全
 set wildmenu
 
@@ -106,7 +109,11 @@ endf
 " 全屏开/关快捷键
 map <silent> <F11> :call ToggleFullscreen()<CR>
 " 启动 vim 时自动全屏
+<<<<<<< HEAD
 autocmd VimEnter * call ToggleFullscreen()
+=======
+"autocmd VimEnter * call ToggleFullscreen()
+>>>>>>> 03df61bd9c89ab24223a9e19054d895d44cba6a3
 
 " <<
 
@@ -235,7 +242,11 @@ let g:SignatureMap = {
 
 " >>
 " 代码导航
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 03df61bd9c89ab24223a9e19054d895d44cba6a3
 " 基于标签的代码导航
 
 " 设置插件 indexer 调用 ctags 的参数
@@ -391,7 +402,11 @@ let g:ycm_cache_omnifunc=0
 let g:ycm_seed_identifiers_with_syntax=1
 
 " <<
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 03df61bd9c89ab24223a9e19054d895d44cba6a3
 " 静态分析器 syntastic 错误标识
 let g:syntastic_error_symbol = '✗'
 let g:syntastic_warning_symbol = '⚠'
@@ -409,7 +424,11 @@ let g:disable_protodef_sorting=1
 
 " >>
 " 库信息参考
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 03df61bd9c89ab24223a9e19054d895d44cba6a3
 " 启用:Man命令查看各类man信息
 source $VIMRUNTIME/ftplugin/man.vim
 
@@ -438,7 +457,11 @@ let NERDTreeAutoDeleteBuffer=1
 
 " >>
 " 多文档编辑
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 03df61bd9c89ab24223a9e19054d895d44cba6a3
 " 显示/隐藏 MiniBufExplorer 窗口
 map <Leader>bl :MBEToggle<cr>
 
@@ -468,14 +491,22 @@ map <leader>ss :mksession! my.vim<cr>
 map <leader>rs :source my.vim<cr>
 
 " <<
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 03df61bd9c89ab24223a9e19054d895d44cba6a3
 " 设置快捷键实现一键编译及运行
 nmap <Leader>m :wa<CR> :cd build/<CR> :!rm -rf main<CR> :!cmake CMakeLists.txt<CR>:make<CR><CR> :cw<CR> :cd ..<CR>
 nmap <Leader>g :wa<CR>:cd build/<CR>:!rm -rf main<CR>:!cmake CMakeLists.txt<CR>:make<CR><CR>:cw<CR>:cd ..<CR>:!build/main<CR>
 
 " >>
 " 快速选中结对符内的文本
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 03df61bd9c89ab24223a9e19054d895d44cba6a3
 " 快捷键
 map <SPACE> <Plug>(wildfire-fuel)
 vmap <S-SPACE> <Plug>(wildfire-water)
